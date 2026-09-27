@@ -16,6 +16,16 @@ My professional experience is primarily in **AWS and networking**, and I am curr
 **Automation / DevOps:** GitHub Actions, AWS CLI, Ansible  
 **Containers:** Docker
 
+## 🤖 Ask My Portfolio
+
+Want a quick overview of my experience?
+
+Ask my AI Portfolio Assistant about my **AWS, networking, Terraform, automation, Azure, and hands-on projects**.
+
+It uses my portfolio data and project READMEs as its knowledge source, and can link you directly to relevant GitHub projects.
+
+### → [Open AI Portfolio Assistant](https://d2vh3y3m1bmy4w.cloudfront.net/)
+
 ## Featured Projects
 
 ### AWS Windows Maintenance Automation
