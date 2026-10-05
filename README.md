@@ -28,6 +28,15 @@ It uses my portfolio data and project READMEs as its knowledge source, and can l
 
 ## Featured Projects
 
+### Azure Container Apps Event-Driven Worker
+**Terraform · Azure Container Apps · Service Bus · KEDA · Managed Identity · Blob Storage · GitHub Actions**
+
+Built an event-driven API/worker platform on Azure. Service Bus decouples request handling from background processing, KEDA scales workers from zero based on queue depth, and failed messages are retried or moved to a Dead-letter Queue.
+
+Separated infrastructure lifecycle from application deployment: Terraform manages Azure resources, while GitHub Actions builds commit-SHA-tagged Docker images, pushes them to ACR, and updates Container Apps.
+
+→ [View Project](https://github.com/itsuki-kawamura-dev/terraform-azure-container-apps-cicd)
+
 ### AWS Windows Maintenance Automation
 **Terraform · AWS Step Functions · Systems Manager · EventBridge · Lambda · CloudWatch · SNS · GitHub Actions**
 
@@ -49,12 +58,6 @@ Built a private application infrastructure combining IaC, configuration manageme
 
 → [View Project](https://github.com/itsuki-kawamura-dev/terraform-aws-ansible-docker-alb)
 
-### AWS Terraform CI/CD with GitHub OIDC
-**Terraform · AWS · GitHub Actions · OIDC · Remote State**
-
-Implemented keyless Terraform deployment from GitHub Actions to AWS using OIDC federation and remote state.
-
-→ [View Project](https://github.com/itsuki-kawamura-dev/terraform-aws-github-actions-oidc-ci)
 ## Professional Background
 
 - Cloud infrastructure and technical support across AWS, Azure, and GCP
